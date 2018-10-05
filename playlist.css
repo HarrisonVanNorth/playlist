@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 15vh;
+  width: 100vw;
+  background-color: #989186;
+  display: flex;
+}
+
+main {
+  height: 80vh;
+  width: 100vw;
+}
+
+footer {
+  display: flex;
+  height: 5vh;
+  width: 100vw;
+  color: white;
+  background-color: #989186;
+}
+h1 {
+  color: white;
+  margin: 4% auto 0 3%;
+  font-family: 'K2D', sans-serif;
+}
+
+h2 {
+margin: 0 0 0 3%;
+}
+
+.tracker, .submitBin {
+  background-color: #4b4f4a;
+  height: 100%;
+  width: 15%;
+  border: 0;
+  border-style: 0;
+  color: white;
+  font-family: 'K2D', sans-serif;
+}
+
+p{
+  margin-block-start: 2px;
+  margin-block-end: 2px;
+  font-family: 'K2D', sans-serif;
+}
+.albumContainer {
+  display: flex;
+  justify-content: space-evenly;
+  height: 30%;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.cover {
+  margin-top: 1%;
+  height: 60%;
+  width: 6%;
+}
+
+.textBox {
+  height: 40%;
+  width: 90%;
+  margin: 2% auto;
+  border:  2px solid black;
+  background-color: #efedec;
+}
+
+.buttonContainer {
+  height: 10%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Splash Page CSS Below */
+.splashHeader{
+  height: 10vh;
+}
+
+.mainSplash{
+  height: 85vh;
+  display: flex;
+}
+.splashDiv1 {
+  width: 50%;
+}
+.splashAlbums{
+  width: 50%;
+}
+.splashH1 {
+  text-align: center;
+  font-size: 32;
+  color: blue;
+  width: 100%;
+  margin: 35% 0 0 0;
+  font-family: 'K2D', sans-serif;
+}
+a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.SplashButton {
+  height: 8%;
+  width: 20%;
+  padding:5px;
+  background-color: #4b4f4a;
+  border: 0;
+  border-style: 0;
+  color: white;
+  font-family: 'K2D', sans-serif;
+}
+.railroad {
+  width: 100%;
+  height: 100%;
+  opacity: .19;
+}
